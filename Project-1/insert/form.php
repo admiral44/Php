@@ -31,7 +31,7 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_naem" placeholder="Enter Name" required>                    
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_name" placeholder="Enter Name" required>                    
                     </div>
                 </div>
 

@@ -38,7 +38,7 @@
       <tbody>
 
         <?php
-        $sql = "SELECT `p_name`, `p_no`, `p_email` FROM `Personal_info` where id='100'";
+        $sql = " SELECT `p_name`, `p_no`, `p_email` FROM `Personal_info` ";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {

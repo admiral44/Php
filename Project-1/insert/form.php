@@ -31,14 +31,14 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="p_naem" placeholder="Enter Name" required>                    
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_naem" placeholder="Enter Name" required>                    
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Number</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="p_no" placeholder="Enter Number" required>
+                        <input type="tel" class="form-control" id="exampleInputEmail1" name="p_no" placeholder="Enter Number" required>
                     </div>
                 </div>
 

@@ -26,7 +26,7 @@
 
   <div class="container">
 
-    <table class="table table-hover table-dark">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th scope="col">#</th>

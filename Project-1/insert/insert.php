@@ -2,9 +2,9 @@
 
 include("../conn/conn.php");
 
-$p_name = $_REQUEST[""];
-$p_no = $_REQUEST[""];
-$p_email = $_REQUEST[""];
+$p_name = $_REQUEST["p_name"];
+$p_no = $_REQUEST["p_no"];
+$p_email = $_REQUEST["p_email"];
 
 $sql = "INSERT INTO `Personal_info`(`p_name`, `p_no`, `p_email`) VALUES ('$p_name','$p_no','$p_email')";
 

@@ -1,4 +1,4 @@
-<?php include("./Project-1/conn/conn.php") ?>
+<?php include("./conn/conn.php") ?>
 <!doctype html>
 <html lang="en">
   <head>

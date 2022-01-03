@@ -22,7 +22,47 @@
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
+  <h1>All USER Information</h1>
+
+  <div class="container">
+
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Number</th>
+          <th scope="col">Email</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <?php
+        $sql = "SELECT `p_name`, `p_no`, `p_email` FROM `Personal_info`";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+          $no=1;
+          while ($row = $result->fetch_assoc()) {
+        ?>
+        
+            <tr>
+              <th scope="row"> <?php echo $no; ?> </th>
+              <td><?php echo $row["p_name"]; ?></td>
+              <td><?php echo $row["p_no"]; ?></td>
+              <td>@<?php echo $row["p_email"]; ?></td>
+            </tr>
+
+        <?php
+        $no++;
+          }
+        } else {
+          echo "0 results";
+        }
+        ?>
+      </tbody>
+    </table>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

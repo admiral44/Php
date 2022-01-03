@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <h1>All USER Information</h1>
+  <h1>All USER INFORMATION</h1>
 
   <div class="container">
 

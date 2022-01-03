@@ -22,6 +22,8 @@
 </head>
 
 <body>
+  <?php include("./navBar/navbar.php");?>
+  
   <h1>All USER INFORMATION</h1>
 
   <div class="container">

@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    <?php include("../navBar/navbar.php"); ?>
     <h1>Registration From</h1>
 
     <div class="container">

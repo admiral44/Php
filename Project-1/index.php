@@ -38,26 +38,32 @@
       <tbody>
 
         <?php
-        $sql = "SELECT `p_name`, `p_no`, `p_email` FROM `Personal_info`";
+        $sql = "SELECT `p_name`, `p_no`, `p_email` FROM `Personal_info` where id='100'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-          $no=1;
+          $no = 1;
           while ($row = $result->fetch_assoc()) {
         ?>
-        
+
             <tr>
-              <th><?php echo $no;?></th>
-              <td><?php echo $row["p_name"];?></td>
+              <th><?php echo $no; ?></th>
+              <td><?php echo $row["p_name"]; ?></td>
               <td><?php echo $row["p_no"]; ?> </td>
-              <td><?php echo $row["p_email"];?> </td>
+              <td><?php echo $row["p_email"]; ?> </td>
             </tr>
 
-        <?php
-        $no++;
+          <?php
+            $no++;
           }
         } else {
-          echo "0 results";
+          ?>
+          <tr>
+            <td>
+              <p>0 Result Found</p>
+            </td>
+          </tr>
+        <?php
         }
         ?>
       </tbody>

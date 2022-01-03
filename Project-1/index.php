@@ -26,7 +26,7 @@
 
   <div class="container">
 
-    <table class="table table-hover">
+    <table class="table table-hover text-center">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -47,10 +47,10 @@
         ?>
         
             <tr>
-              <th scope="row"> <?php echo $no; ?> </th>
-              <td><?php echo $row["p_name"]; ?></td>
-              <td><?php echo $row["p_no"]; ?></td>
-              <td>@<?php echo $row["p_email"]; ?></td>
+              <th><?php echo $no;?></th>
+              <td><?php echo $row["p_name"];?></td>
+              <td><?php echo $row["p_no"]; ?> </td>
+              <td><?php echo $row["p_email"];?> </td>
             </tr>
 
         <?php

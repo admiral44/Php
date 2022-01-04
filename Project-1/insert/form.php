@@ -29,25 +29,46 @@
         <form action="./insert.php" method="POST">
             <div class="row">
 
-                <div class="col">
+                <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" name="p_name" placeholder="Enter Name" required>                    
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Number</label>
                         <input type="tel" class="form-control" id="exampleInputEmail1" name="p_no" placeholder="Enter Number" required>
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="p_email" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Company Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_name" placeholder="Enter Compnay Name" required>                    
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Package</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_name" placeholder="Enter Package" required>                    
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Location</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="p_name" placeholder="Enter Location" required>                    
                     </div>
                 </div>
 
